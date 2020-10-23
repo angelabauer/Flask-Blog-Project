@@ -1,2 +1,2 @@
-from __init__ import getApp
+from Flask-Blog-Project import getApp
 app = getApp()
