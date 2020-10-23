@@ -1,2 +1,2 @@
-from Flask-Blog-Project import getApp
-app = getApp()
+from main import getApp
+app = get_app()
