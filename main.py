@@ -218,7 +218,7 @@ def delete_post(post_id):
     db.session.commit()
     return redirect(url_for('get_all_posts'))
 
-def getApp():
+def get_app():
     return app
 
 
